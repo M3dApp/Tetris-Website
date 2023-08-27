@@ -1,0 +1,129 @@
+div.main {
+    background-image: url("tetris.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 95%;
+	height: 700px;
+	position: relative;
+	margin: auto;
+    display: block;    
+}
+ul.navbar {
+	background-color: blue;
+	padding: 0px;
+    overflow: auto;
+}
+ul.navbar li {
+	float: left;
+	text-align: left;
+	color: white;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    width: 80px;
+	padding-left: 24px;
+	padding-right: 24px;
+    padding-top: 14px;
+	padding-bottom: 14px;
+}
+ul.navbar li#right-side{
+    float: right;
+	text-align: right;
+}
+ul.navbar li:hover {
+	text-decoration: dotted underline;
+}
+ul.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+div.main > div {
+    background-color: grey;
+    box-shadow: 5px 5px;
+    opacity: 96%;
+    width: 480px;
+	height: 300px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+input#submit {
+    width: 170px;
+	font-weight: bold;
+}
+button {
+	width: 100px;
+	font-weight: bold;
+}
+button#start-button {
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	margin: 0;
+	top: 710px;
+	left: 50%;
+	-moz-transform: translate(-50%, 0%);
+	-webkit-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+}
+label#score {
+	display: none;
+	width: 200px;
+	text-align: center;
+	position: absolute;
+	margin: 0;
+	top: 710px;
+	left: 50%;
+	-moz-transform: translate(-50%, 0%);
+	-webkit-transform: translate(-50%, 0%);
+	transform: translate(-50%, 0%);
+}
+p.output {
+    font-weight: bold;
+	background-color: Tomato;
+	display: none;
+}
+label {
+	font-weight: bold;
+}
+div#registration {
+	height: 480px;
+}
+div#leaderboard {
+	height: 600px;
+}
+th#table-header {
+	background-color: blue;
+	color: white;
+}
+table {
+	border-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+}
+div#tetris-bg {
+	background-image: url("tetris-grid-bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 2px black solid;
+	padding: 20px;
+	flex-wrap: wrap;
+	display: flex;
+	height: 600px;
+    width: 300px;
+}
+div.block {
+	border: 1px black solid;
+    height: 28px;
+    width: 28px;
+    margin: auto;
+}
